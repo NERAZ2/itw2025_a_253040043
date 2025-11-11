@@ -1,0 +1,44 @@
+div {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 102, 63, 0.5);
+    border-radius: 0 50% 0 50%;
+    line-height: 300px;
+    text-align: center;
+    opacity: 0.7;
+    box-shadow: inset 5px 5px 5px  rgba(0, 0, 0, .75);
+    background-image: linear-gradient(150deg, Black , Blue,Yellow);
+}
+div:hover {
+    box-shadow: inset 0px 60px 10px -40px rgba(197, 29, 29, 0.75),
+                5px 5px 15px rgba(14, 143, 203, 0.75);
+    margin-top: 40px;
+
+} 
+.dua {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    right: -50px;
+    bottom: 60px;
+    left: 150px;
+    background-image: radial-gradient(
+        closest-side
+    ellipse at center,
+     Red,    
+    Yellow, Blue
+        );
+    text-align: center;
+    line-height: 200px;
+}
+h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px 10px blue, -5px -5px 10px green;
+    font-family:"Bebas Neue", sans-serif;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
