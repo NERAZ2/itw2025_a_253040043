@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    height: 150px;
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex; /* Membuat sebuah elemen menjadu flex box */ 
+    /*flex-direction: column; /* Mengatur arah dari items di dalam container */
+    /*flex-wrap: wrap; /* Mengatur agar items dapat membungkus ke baris berikutnya */
+    /*justify-content: flex-end; /* Mengatur posisi items secara horizontal */
+    /*align-items: center; /* Mengatur posisi items secara vertical */
+    align-content: flex-start; /* Mengatur jarak antar items terhadap cross axis */
+}
+
+.container div {
+    background-color: blueviolet;
+    float: left;
+    margin: 2px;
+    flex: 1;
+}
+
+.container div.dua {
+    align-self: center;
+    flex: 2;
+}
